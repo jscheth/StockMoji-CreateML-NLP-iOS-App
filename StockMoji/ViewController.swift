@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var backgroundView: UIView!
+    @IBOutlet weak var emojiLabel: UILabel!
+    @IBOutlet weak var lookupLabel: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    @IBAction func predictPressed(_ sender: UIButton) {
+    }
 }
 
